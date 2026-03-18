@@ -14,7 +14,8 @@ st.markdown("An interactive EDA covering species distribution, temporal activity
 # ==============================================================================
 @st.cache_data
 def load_data():
-    file_path = r"C:\Users\tatha\Downloads\NEW_PROJECT\Final_Master_Dashboard_Data.xlsx"
+    #file_path = r"C:\Users\tatha\Downloads\NEW_PROJECT\Final_Master_Dashboard_Data.xls"
+    file_path = r"file_path = r"C:\Users\tatha\Downloads\NEW_PROJECT\Final_Master_Dashboard_Data.xls""
     df = pd.read_excel(file_path)
     
     # Temporal Preprocessing
