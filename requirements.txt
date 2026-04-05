@@ -8,6 +8,3 @@ joblib
 sqlalchemy
 pyodbc
 openpyxl
-urllib
-sqlalchemy
-plotly.express
